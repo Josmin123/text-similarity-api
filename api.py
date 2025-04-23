@@ -5,7 +5,8 @@ from similarity import compute_similarity
 
 app = FastAPI(
     title="Text Similarity API",
-    docs_url="/docs",            
+    docs_url="/docs",
+     redoc_url="/redoc",            
     openapi_url="/openapi.json"
 )
 
