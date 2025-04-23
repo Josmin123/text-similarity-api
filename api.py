@@ -3,7 +3,12 @@ from pydantic import BaseModel
 from model import load_model
 from similarity import compute_similarity
 
-app=FastAPI()
+app = FastAPI(
+    title="Text Similarity API",
+    docs_url="/docs",            
+    openapi_url="/openapi.json"
+)
+
 model=load_model()
 
 class TextPair(BaseModel):
