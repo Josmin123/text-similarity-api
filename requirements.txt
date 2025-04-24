@@ -3,7 +3,4 @@ sentence-transformers
 scikit-learn
 fastapi
 uvicorn
-<<<<<<< HEAD
-streamlit
-=======
->>>>>>> fd105eb1e80240096adf37ed89d0037000f8eae5
+
